@@ -2,8 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:minecraft_coordinates/domain/location.dart';
-import 'package:minecraft_coordinates/presentation/location_providers.dart';
+import 'package:minecraft_coordinates/domain/entities/location.dart';
+import 'package:minecraft_coordinates/presentation/providers/location_providers.dart';
 
 class AddEditLocationScreen extends ConsumerStatefulWidget {
   final Location? location;

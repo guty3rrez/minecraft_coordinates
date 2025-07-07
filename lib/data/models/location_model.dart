@@ -1,6 +1,6 @@
 // lib/features/locations/data/models/location_model.dart
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:minecraft_coordinates/domain/location.dart';
+import 'package:minecraft_coordinates/domain/entities/location.dart';
 
 class LocationModel extends Location {
   const LocationModel({

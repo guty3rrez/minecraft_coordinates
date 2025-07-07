@@ -1,8 +1,8 @@
 // lib/features/locations/data/repositories/location_repository_impl.dart
-import 'package:minecraft_coordinates/data/location_remote_datasource.dart';
-import 'package:minecraft_coordinates/data/location_model.dart';
-import 'package:minecraft_coordinates/domain/location.dart';
-import 'package:minecraft_coordinates/domain/location_repository.dart';
+import 'package:minecraft_coordinates/data/datasources/location_remote_datasource.dart';
+import 'package:minecraft_coordinates/data/models/location_model.dart';
+import 'package:minecraft_coordinates/domain/entities/location.dart';
+import 'package:minecraft_coordinates/domain/repositories/location_repository.dart';
 
 class LocationRepositoryImpl implements LocationRepository {
   final LocationRemoteDataSource remoteDataSource;

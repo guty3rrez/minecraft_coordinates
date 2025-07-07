@@ -1,14 +1,14 @@
 // lib/features/locations/presentation/providers/location_providers.dart
-import 'package:minecraft_coordinates/domain/location.dart';
+import 'package:minecraft_coordinates/domain/entities/location.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:minecraft_coordinates/presentation/firebase_provider.dart';
-import 'package:minecraft_coordinates/data/location_remote_datasource.dart';
-import 'package:minecraft_coordinates/data/location_repository_impl.dart';
-import 'package:minecraft_coordinates/domain/location_repository.dart';
-import 'package:minecraft_coordinates/domain/add_location.dart';
-import 'package:minecraft_coordinates/domain/delete_location.dart';
-import 'package:minecraft_coordinates/domain/get_locations.dart';
-import 'package:minecraft_coordinates/domain/update_location.dart';
+import 'package:minecraft_coordinates/presentation/providers/firebase_provider.dart';
+import 'package:minecraft_coordinates/data/datasources/location_remote_datasource.dart';
+import 'package:minecraft_coordinates/data/repositories/location_repository_impl.dart';
+import 'package:minecraft_coordinates/domain/repositories/location_repository.dart';
+import 'package:minecraft_coordinates/domain/usecases/add_location.dart';
+import 'package:minecraft_coordinates/domain/usecases/delete_location.dart';
+import 'package:minecraft_coordinates/domain/usecases/get_locations.dart';
+import 'package:minecraft_coordinates/domain/usecases/update_location.dart';
 
 part 'location_providers.g.dart'; // El generador creará este archivo
 

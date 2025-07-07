@@ -1,6 +1,6 @@
 // lib/features/locations/data/datasources/location_remote_datasource.dart
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:minecraft_coordinates/data/location_model.dart';
+import 'package:minecraft_coordinates/data/models/location_model.dart';
 
 abstract class LocationRemoteDataSource {
   Stream<List<LocationModel>> getLocations();

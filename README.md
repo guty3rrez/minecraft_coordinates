@@ -1,75 +1,71 @@
-# Minecraft Coordinates Manager
 
-A Flutter application for managing and sharing Minecraft coordinates across devices using Firebase.
+# Administrador de Coordenadas de Minecraft
 
-## Features
+Una aplicación hecha con Flutter para administrar y compartir coordenadas de Minecraft entre dispositivos usando Firebase.
 
-- Save and organize Minecraft coordinates with descriptions
-- Share coordinates with other players
-- Categorize locations with custom tags
-- Offline support with cloud sync
+## ✨ Características
 
-## Prerequisites
+  * **Guarda y organiza** coordenadas de Minecraft con un nombre descriptivo.
+  * **Comparte coordenadas** con otros jugadores (deben tener la app instalada).
+  * **Sincronización en la nube** para que tus coordenadas estén disponibles en todos tus dispositivos.
 
-- Flutter SDK (latest stable version)
-- Dart SDK (comes with Flutter)
-- Android Studio / Xcode (for running on emulator/device)
-- Firebase project (for cloud sync)
+## 📋 Requisitos Previos
 
-## Getting Started
+  * Flutter SDK (última versión estable)
+  * Dart SDK (incluido con Flutter)
+  * Android Studio / Xcode (para ejecutar en emulador o dispositivo físico)
+  * Un proyecto de Firebase
 
-### 1. Clone the repository
+## 🚀 Instalación
+
+### 1\. Clona el repositorio
 
 ```bash
-git clone https://github.com/yourusername/minecraft_coordinates.git
+git clone https://github.com/guty3rrez/minecraft_coordinates.git
 cd minecraft_coordinates
 ```
 
-### 2. Install dependencies
+### 2\. Instala las dependencias
 
 ```bash
 flutter pub get
 ```
 
-### 3. Firebase Setup
+### 3\. Configuración de Firebase
 
-1. Create a new Firebase project at https://console.firebase.google.com/
-2. Add a new Android/iOS app to your Firebase project
-3. Download the configuration files:
-   - For Android: `google-services.json` (place in `android/app/`)
-   - For iOS: `GoogleService-Info.plist` (place in `ios/Runner/`)
+1.  Crea un nuevo proyecto en la [Consola de Firebase](https://console.firebase.google.com/).
+2.  Agrega una aplicación de Android y/o iOS a tu proyecto.
+3.  Sigue las instrucciones que se muestran en la consola de Firebase para descargar y agregar el archivo de configuración a tu proyecto de Flutter.
 
-### 4. Run the app
+### 4\. Ejecuta la aplicación
 
 ```bash
-# For Android
-flutter run -d <device_id>
-
-# For iOS
-flutter run -d <device_id>
+flutter run
 ```
 
-## Building for Release
+## 📦 Compilación para Producción
 
 ### Android
 
 ```bash
+# Para generar un APK
 flutter build apk --release
-# or for app bundle
-flutter build appbundle
+
+# Para generar un App Bundle
+flutter build appbundle --release
 ```
 
 ### iOS
 
 ```bash
 flutter build ios --release
-# Open Xcode and archive the app
+# Luego, abre el proyecto en Xcode para archivarlo y distribuirlo.
 ```
 
-## Contributing
+## 🤝 Contribuciones
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+¡Las contribuciones son bienvenidas\! Siéntete libre de enviar un Pull Request.
 
-## License
+## 📄 Licencia
 
-This project is open source and available under the [MIT License](LICENSE).
+Este proyecto es de código abierto y está disponible bajo la [Licencia MIT](https://www.google.com/search?q=LICENSE).

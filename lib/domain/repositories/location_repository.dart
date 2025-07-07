@@ -1,5 +1,5 @@
 // lib/features/locations/domain/repositories/location_repository.dart
-import 'package:minecraft_coordinates/domain/location.dart';
+import 'package:minecraft_coordinates/domain/entities/location.dart';
 
 abstract class LocationRepository {
   Stream<List<Location>> getLocations();

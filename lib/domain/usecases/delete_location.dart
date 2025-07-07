@@ -1,5 +1,5 @@
 //Similar pero recibe un string id
-import 'package:minecraft_coordinates/domain/location_repository.dart';
+import 'package:minecraft_coordinates/domain/repositories/location_repository.dart';
 
 class DeleteLocation {
   final LocationRepository repository;

@@ -1,5 +1,5 @@
-import 'package:minecraft_coordinates/domain/location.dart';
-import 'package:minecraft_coordinates/domain/location_repository.dart';
+import 'package:minecraft_coordinates/domain/entities/location.dart';
+import 'package:minecraft_coordinates/domain/repositories/location_repository.dart';
 
 class AddLocation {
   final LocationRepository repository;

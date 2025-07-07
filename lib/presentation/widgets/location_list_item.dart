@@ -1,9 +1,9 @@
 // lib/presentation/location_list_item.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:minecraft_coordinates/domain/location.dart';
-import 'package:minecraft_coordinates/presentation/location_providers.dart';
-import 'package:minecraft_coordinates/presentation/add_edit_location_screen.dart';
+import 'package:minecraft_coordinates/domain/entities/location.dart';
+import 'package:minecraft_coordinates/presentation/providers/location_providers.dart';
+import 'package:minecraft_coordinates/presentation/screens/add_edit_location_screen.dart';
 
 class LocationListItem extends ConsumerWidget {
   final Location location;
